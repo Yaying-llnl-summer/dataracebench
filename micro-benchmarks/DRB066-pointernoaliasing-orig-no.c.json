@@ -1,0 +1,27 @@
+{
+"parallel loop 1":{
+"file":"micro-benchmarks/DRB066-pointernoaliasing-orig-no.c",
+"function":"setup",
+"loop id":"1",
+"loop line":"57",
+"loop column":"3",
+"pragma type":"parallel for",
+"ordered":"false",
+"offload":"false",
+"multiversioned":"false",
+"shared":[],
+"private":[],
+"firstprivate":[],
+"lastprivate":[],
+"linear":[],
+"reduction":[],
+"map to":[],
+"map from":[],
+"map tofrom":[],
+"dependence list":[],
+"body":["{ ",
+"    m_pdv_sum[ i ] = 0.0;",
+"    m_nvol[ i ]   = i*2.5;",
+"  }"]
+}
+}

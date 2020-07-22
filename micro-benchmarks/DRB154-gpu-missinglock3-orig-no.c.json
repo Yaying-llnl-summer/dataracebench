@@ -1,0 +1,28 @@
+{
+"parallel loop 1":{
+"file":"micro-benchmarks/DRB154-gpu-missinglock3-orig-no.c",
+"function":"main",
+"loop id":"1",
+"loop line":"25",
+"loop column":"3",
+"pragma type":"teams ditribute",
+"ordered":"false",
+"offload":"true",
+"multiversioned":"false",
+"shared":[],
+"private":[],
+"firstprivate":[],
+"lastprivate":[],
+"linear":[],
+"reduction":[],
+"map to":[],
+"map from":[],
+"map tofrom":["var"],
+"dependence list":[],
+"body":["{",
+"    omp_set_lock(&lck);",
+"    var++;",
+"    omp_unset_lock(&lck);",
+"  }"]
+}
+}

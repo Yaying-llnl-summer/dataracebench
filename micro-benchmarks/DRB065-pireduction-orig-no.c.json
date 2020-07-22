@@ -1,0 +1,27 @@
+{
+"parallel loop 1":{
+"file":"micro-benchmarks/DRB065-pireduction-orig-no.c",
+"function":"main",
+"loop id":"1",
+"loop line":"62",
+"loop column":"3",
+"pragma type":"parallel for",
+"ordered":"false",
+"offload":"false",
+"multiversioned":"false",
+"shared":[],
+"private":["x"],
+"firstprivate":[],
+"lastprivate":[],
+"linear":[],
+"reduction":["+:pi"],
+"map to":[],
+"map from":[],
+"map tofrom":[],
+"dependence list":[],
+"body":["{",
+"    x = (i+ 0.5) * interval_width;",
+"    pi += 1.0 / (x*x + 1.0);",
+"  }"]
+}
+}

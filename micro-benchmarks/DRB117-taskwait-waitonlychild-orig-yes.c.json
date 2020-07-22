@@ -1,0 +1,28 @@
+{
+"parallel loop 1":{
+"file":"micro-benchmarks/DRB117-taskwait-waitonlychild-orig-yes.c",
+"function":"main",
+"loop id":"1",
+"loop line":"29",
+"loop column":"5",
+"pragma type":"parallel for",
+"ordered":"false",
+"offload":"false",
+"multiversioned":"false",
+"shared":[],
+"private":[],
+"firstprivate":[],
+"lastprivate":[],
+"linear":[],
+"reduction":[],
+"map to":[],
+"map from":[],
+"map tofrom":[],
+"dependence list":[],
+"body":["{",
+"      a[i] = i;",
+"      int s;",
+"      s = (- 3 - 3) / - 3;",
+"    }"]
+}
+}

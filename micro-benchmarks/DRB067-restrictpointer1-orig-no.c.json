@@ -1,0 +1,27 @@
+{
+"parallel loop 1":{
+"file":"micro-benchmarks/DRB067-restrictpointer1-orig-no.c",
+"function":"foo",
+"loop id":"1",
+"loop line":"62",
+"loop column":"3",
+"pragma type":"parallel for",
+"ordered":"false",
+"offload":"false",
+"multiversioned":"false",
+"shared":[],
+"private":["i"],
+"firstprivate":["length"],
+"lastprivate":[],
+"linear":[],
+"reduction":[],
+"map to":[],
+"map from":[],
+"map tofrom":[],
+"dependence list":[],
+"body":["{",
+"    newSxx[i] = 0.0;",
+"    newSyy[i] = 0.0;",
+"  }"]
+}
+}

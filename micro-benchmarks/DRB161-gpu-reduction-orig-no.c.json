@@ -1,0 +1,26 @@
+{
+"parallel loop 1":{
+"file":"micro-benchmarks/DRB161-gpu-reduction-orig-no.c",
+"function":"main",
+"loop id":"1",
+"loop line":"23",
+"loop column":"3",
+"pragma type":"teams ditribute parallel for",
+"ordered":"false",
+"offload":"true",
+"multiversioned":"false",
+"shared":[],
+"private":[],
+"firstprivate":[],
+"lastprivate":[],
+"linear":[],
+"reduction":["+:var"],
+"map to":[],
+"map from":[],
+"map tofrom":["var"],
+"dependence list":[],
+"body":["{",
+"    var++;",
+"  }"]
+}
+}

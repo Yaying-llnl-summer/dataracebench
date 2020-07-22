@@ -1,0 +1,47 @@
+{
+"atomic write 1":{
+"pragma type":"atomic write",
+"file":"",
+"function":"",
+"loop id":"0",
+"statement id":"0",
+"snippet line":"31",
+"snippet column":"13",
+"code snippet":["y = 1;"]
+},
+"atomic read 2":{
+"pragma type":"atomic read",
+"file":"micro-benchmarks/DRB143-acquirerelease-orig-no.c",
+"function":"main",
+"loop id":"1",
+"statement id":"2",
+"snippet line":"36",
+"snippet column":"15",
+"code snippet":["tmp = y;"]
+},
+"parallel loop 3":{
+"file":"micro-benchmarks/DRB143-acquirerelease-orig-no.c",
+"function":"main",
+"loop id":"1",
+"loop line":"35",
+"loop column":"7",
+"pragma type":"NULL",
+"ordered":"false",
+"offload":"false",
+"multiversioned":"false",
+"shared":[],
+"private":[],
+"firstprivate":[],
+"lastprivate":[],
+"linear":[],
+"reduction":[],
+"map to":[],
+"map from":[],
+"map tofrom":[],
+"dependence list":[],
+"body":["{",
+"      #pragma omp atomic read acquire",
+"      tmp = y;",
+"      }"]
+}
+}

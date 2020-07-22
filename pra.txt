@@ -1,0 +1,299 @@
+RUNNING: micro-benchmarks/DRB001-antidep1-orig-yes.c.json
+pragam :parallel for
+RUNNING: micro-benchmarks/DRB002-antidep1-var-yes.c.json
+pragam :parallel for
+RUNNING: micro-benchmarks/DRB003-antidep2-orig-yes.c.json
+pragam :parallel for
+clause :private
+RUNNING: micro-benchmarks/DRB004-antidep2-var-yes.c.json
+pragam :parallel for
+clause :private
+RUNNING: micro-benchmarks/DRB005-indirectaccess1-orig-yes.c.json
+pragam :parallel for
+RUNNING: micro-benchmarks/DRB006-indirectaccess2-orig-yes.c.json
+pragam :parallel for
+RUNNING: micro-benchmarks/DRB007-indirectaccess3-orig-yes.c.json
+pragam :parallel for
+RUNNING: micro-benchmarks/DRB008-indirectaccess4-orig-yes.c.json
+pragam :parallel for
+RUNNING: micro-benchmarks/DRB009-lastprivatemissing-orig-yes.c.json
+pragam :parallel for
+clause :private
+RUNNING: micro-benchmarks/DRB010-lastprivatemissing-var-yes.c.json
+pragam :parallel for
+clause :private
+RUNNING: micro-benchmarks/DRB011-minusminus-orig-yes.c.json
+pragam :parallel for
+RUNNING: micro-benchmarks/DRB012-minusminus-var-yes.c.json
+pragam :parallel for
+RUNNING: micro-benchmarks/DRB013-nowait-orig-yes.c.json
+pragam :parallel for
+clause :shared
+RUNNING: micro-benchmarks/DRB014-outofbounds-orig-yes.c.json
+pragam :parallel for
+clause :private
+RUNNING: micro-benchmarks/DRB015-outofbounds-var-yes.c.json
+pragam :parallel for
+clause :private
+RUNNING: micro-benchmarks/DRB016-outputdep-orig-yes.c.json
+pragam :parallel for
+RUNNING: micro-benchmarks/DRB017-outputdep-var-yes.c.json
+pragam :parallel for
+RUNNING: micro-benchmarks/DRB018-plusplus-orig-yes.c.json
+pragam :parallel for
+RUNNING: micro-benchmarks/DRB019-plusplus-var-yes.c.json
+pragam :parallel for
+RUNNING: micro-benchmarks/DRB020-privatemissing-var-yes.c.json
+pragam :parallel for
+RUNNING: micro-benchmarks/DRB021-reductionmissing-orig-yes.c.json
+pragam :parallel for
+clause :private
+RUNNING: micro-benchmarks/DRB022-reductionmissing-var-yes.c.json
+pragam :parallel for
+clause :private
+RUNNING: micro-benchmarks/DRB024-simdtruedep-orig-yes.c.json
+pragam :simd
+RUNNING: micro-benchmarks/DRB025-simdtruedep-var-yes.c.json
+pragam :simd
+RUNNING: micro-benchmarks/DRB026-targetparallelfor-orig-yes.c.json
+pragam :parallel for
+clause :map tofrom
+RUNNING: micro-benchmarks/DRB028-privatemissing-orig-yes.c.json
+pragam :parallel for
+RUNNING: micro-benchmarks/DRB029-truedep1-orig-yes.c.json
+pragam :parallel for
+RUNNING: micro-benchmarks/DRB030-truedep1-var-yes.c.json
+pragam :parallel for
+RUNNING: micro-benchmarks/DRB031-truedepfirstdimension-orig-yes.c.json
+pragam :parallel for
+clause :private
+RUNNING: micro-benchmarks/DRB032-truedepfirstdimension-var-yes.c.json
+pragam :parallel for
+clause :private
+RUNNING: micro-benchmarks/DRB033-truedeplinear-orig-yes.c.json
+pragam :parallel for
+RUNNING: micro-benchmarks/DRB034-truedeplinear-var-yes.c.json
+pragam :parallel for
+RUNNING: micro-benchmarks/DRB035-truedepscalar-orig-yes.c.json
+pragam :parallel for
+RUNNING: micro-benchmarks/DRB036-truedepscalar-var-yes.c.json
+pragam :parallel for
+RUNNING: micro-benchmarks/DRB037-truedepseconddimension-orig-yes.c.json
+pragam :parallel for
+RUNNING: micro-benchmarks/DRB038-truedepseconddimension-var-yes.c.json
+pragam :parallel for
+RUNNING: micro-benchmarks/DRB039-truedepsingleelement-orig-yes.c.json
+pragam :parallel for
+RUNNING: micro-benchmarks/DRB040-truedepsingleelement-var-yes.c.json
+pragam :parallel for
+RUNNING: micro-benchmarks/DRB045-doall1-orig-no.c.json
+pragam :parallel for
+RUNNING: micro-benchmarks/DRB046-doall2-orig-no.c.json
+pragam :parallel for
+clause :private
+RUNNING: micro-benchmarks/DRB047-doallchar-orig-no.c.json
+pragam :parallel for
+RUNNING: micro-benchmarks/DRB049-fprintf-orig-no.c.json
+pragam :parallel for
+RUNNING: micro-benchmarks/DRB052-indirectaccesssharebase-orig-no.c.json
+pragam :parallel for
+RUNNING: micro-benchmarks/DRB053-inneronly1-orig-no.c.json
+pragam :parallel for
+RUNNING: micro-benchmarks/DRB054-inneronly2-orig-no.c.json
+pragam :parallel for
+RUNNING: micro-benchmarks/DRB065-pireduction-orig-no.c.json
+pragam :parallel for
+clause :private
+clause :reduction
+RUNNING: micro-benchmarks/DRB070-simd1-orig-no.c.json
+pragam :simd
+RUNNING: micro-benchmarks/DRB071-targetparallelfor-orig-no.c.json
+pragam :parallel for
+clause :map tofrom
+RUNNING: micro-benchmarks/DRB073-doall2-orig-yes.c.json
+pragam :parallel for
+RUNNING: micro-benchmarks/DRB084-threadprivatemissing-orig-yes.c.json
+pragam :parallel for
+RUNNING: micro-benchmarks/DRB085-threadprivate-orig-no.c.json
+pragam :parallel for
+RUNNING: micro-benchmarks/DRB090-static-local-orig-yes.c.json
+pragam :parallel for
+pragam :parallel for
+RUNNING: micro-benchmarks/DRB091-threadprivate2-orig-no.c.json
+pragam :parallel for
+RUNNING: micro-benchmarks/DRB092-threadprivatemissing2-orig-yes.c.json
+pragam :parallel for
+RUNNING: micro-benchmarks/DRB093-doall2-collapse-orig-no.c.json
+pragam :parallel for
+pragam :parallel for
+RUNNING: micro-benchmarks/DRB095-doall2-taskloop-orig-yes.c.json
+pragam :taskloop
+RUNNING: micro-benchmarks/DRB096-doall2-taskloop-collapse-orig-no.c.json
+pragam :taskloop
+pragam :taskloop
+RUNNING: micro-benchmarks/DRB097-target-teams-distribute-orig-no.c.json
+pragam :parallel for
+clause :reduction
+pragam :distribute
+clause :map tofrom
+clause :reduction
+clause :map to
+pragam :parallel for
+clause :map tofrom
+clause :reduction
+clause :map to
+RUNNING: micro-benchmarks/DRB098-simd2-orig-no.c.json
+pragam :simd
+pragam :simd
+RUNNING: micro-benchmarks/DRB099-targetparallelfor2-orig-no.c.json
+pragam :parallel for
+clause :map from
+clause :map to
+RUNNING: micro-benchmarks/DRB100-task-reference-orig-no.cpp.json
+RUNNING: micro-benchmarks/DRB101-task-value-orig-no.cpp.json
+RUNNING: micro-benchmarks/DRB104-nowait-barrier-orig-no.c.json
+pragam :parallel for
+clause :shared
+RUNNING: micro-benchmarks/DRB109-orderedmissing-orig-yes.c.json
+pragam :parallel for
+RUNNING: micro-benchmarks/DRB110-ordered-orig-no.c.json
+pragam :parallel for
+clause :dependence list
+pragam :ordered
+clause :code snippet
+RUNNING: micro-benchmarks/DRB111-linearmissing-orig-yes.c.json
+pragam :parallel for
+RUNNING: micro-benchmarks/DRB112-linear-orig-no.c.json
+pragam :parallel for
+clause :linear
+RUNNING: micro-benchmarks/DRB113-default-orig-no.c.json
+pragam :parallel for
+clause :shared
+clause :private
+pragam :parallel for
+clause :private
+RUNNING: micro-benchmarks/DRB114-if-orig-yes.c.json
+pragam :parallel for
+RUNNING: micro-benchmarks/DRB115-forsimd-orig-yes.c.json
+pragam :parallel for simd
+RUNNING: micro-benchmarks/DRB116-target-teams-orig-yes.c.json
+RUNNING: micro-benchmarks/DRB117-taskwait-waitonlychild-orig-yes.c.json
+pragam :parallel for
+RUNNING: micro-benchmarks/DRB121-reduction-orig-no.c.json
+pragam :parallel for
+clause :reduction
+pragam :parallel for
+clause :reduction
+RUNNING: micro-benchmarks/DRB122-taskundeferred-orig-no.c.json
+RUNNING: micro-benchmarks/DRB123-taskundeferred-orig-yes.c.json
+RUNNING: micro-benchmarks/DRB137-simdsafelen-orig-no.c.json
+pragam :simd
+RUNNING: micro-benchmarks/DRB138-simdsafelen-orig-yes.c.json
+pragam :simd
+RUNNING: micro-benchmarks/DRB140-reduction-barrier-orig-yes.c.json
+pragam :parallel for
+clause :private
+clause :shared
+clause :reduction
+RUNNING: micro-benchmarks/DRB141-reduction-barrier-orig-no.c.json
+pragam :parallel for
+clause :reduction
+clause :private
+clause :shared
+RUNNING: micro-benchmarks/DRB142-acquirerelease-orig-yes.c.json
+pragam :atomic read
+clause :code snippet
+pragam :atomic write
+clause :code snippet
+RUNNING: micro-benchmarks/DRB143-acquirerelease-orig-no.c.json
+pragam :atomic read
+clause :code snippet
+pragam :atomic write
+clause :code snippet
+RUNNING: micro-benchmarks/DRB144-gpu-atomiccritical-orig-no.c.json
+pragam :teams ditribute parallel for
+clause :dependence list
+clause :map tofrom
+pragam :atomic
+clause :code snippet
+RUNNING: micro-benchmarks/DRB145-gpu-atomiccritical-orig-yes.c.json
+pragam :atomic
+clause :code snippet
+pragam :teams ditribute parallel for
+clause :dependence list
+clause :map tofrom
+RUNNING: micro-benchmarks/DRB146-gpu-atomicupdate-orig-no.c.json
+pragam :atomic update
+clause :code snippet
+pragam :teams ditribute
+clause :map tofrom
+clause :dependence list
+RUNNING: micro-benchmarks/DRB147-gpu-critical1-orig-no.c.json
+pragam :teams ditribute parallel for
+clause :map tofrom
+RUNNING: micro-benchmarks/DRB148-gpu-critical1-orig-yes.c.json
+pragam :teams ditribute parallel for
+clause :map tofrom
+RUNNING: micro-benchmarks/DRB149-gpu-missingdata1-orig-no.c.json
+pragam :teams ditribute parallel for
+clause :map tofrom
+clause :map to
+RUNNING: micro-benchmarks/DRB150-gpu-missinglock1-orig-no.c.json
+pragam :teams ditribute parallel for
+clause :map tofrom
+RUNNING: micro-benchmarks/DRB151-gpu-missinglock1-orig-yes.c.json
+pragam :teams ditribute parallel for
+clause :map tofrom
+RUNNING: micro-benchmarks/DRB152-gpu-missinglock2-orig-no.c.json
+pragam :distribute parallel for
+clause :map tofrom
+RUNNING: micro-benchmarks/DRB153-gpu-missinglock2-orig-yes.c.json
+pragam :distribute parallel for
+clause :map tofrom
+RUNNING: micro-benchmarks/DRB154-gpu-missinglock3-orig-no.c.json
+pragam :teams ditribute
+clause :map tofrom
+RUNNING: micro-benchmarks/DRB155-gpu-missingordered-orig-no.c.json
+pragam :ordered
+clause :code snippet
+pragam :parallel for
+clause :dependence list
+clause :map tofrom
+RUNNING: micro-benchmarks/DRB156-gpu-missingordered-orig-yes.c.json
+pragam :teams ditribute parallel for
+clause :map tofrom
+RUNNING: micro-benchmarks/DRB157-gpu-missingorderedsimd-orig-yes.c.json
+pragam :teams ditribute parallel for simd
+clause :map tofrom
+RUNNING: micro-benchmarks/DRB158-gpu-missingtaskbarrier-orig-no.c.json
+RUNNING: micro-benchmarks/DRB159-gpu-nobarrier-orig-no.c.json
+pragam :parallel for
+clause :map tofrom
+clause :map to
+pragam :parallel for
+clause :map tofrom
+clause :map to
+RUNNING: micro-benchmarks/DRB160-gpu-nobarrier-orig-yes.c.json
+pragam :distribute
+clause :map to
+clause :map tofrom
+pragam :distribute
+clause :map to
+clause :map tofrom
+RUNNING: micro-benchmarks/DRB161-gpu-reduction-orig-no.c.json
+pragam :teams ditribute parallel for
+clause :map tofrom
+clause :reduction
+RUNNING: micro-benchmarks/DRB162-gpu-reduction-orig-yes.c.json
+pragam :teams ditribute parallel for
+clause :map tofrom
+RUNNING: micro-benchmarks/DRB163-gpu-simdmissinglock1-orig-no.c.json
+pragam :teams ditribute parallel for
+clause :map tofrom
+pragam :simd
+clause :map tofrom
+RUNNING: micro-benchmarks/DRB164-gpu-simdmissinglock1-orig-yes.c.json
+pragam :teams ditribute parallel for
+clause :map tofrom
+pragam :simd
+clause :map tofrom

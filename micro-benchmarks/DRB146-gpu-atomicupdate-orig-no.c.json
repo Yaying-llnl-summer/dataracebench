@@ -1,0 +1,37 @@
+{
+"atomic update 1":{
+"pragma type":"atomic update",
+"file":"micro-benchmarks/DRB146-gpu-atomicupdate-orig-no.c",
+"function":"main",
+"loop id":"1",
+"statement id":"2",
+"snippet line":"24",
+"snippet column":"13",
+"code snippet":["var++;"]
+},
+"parallel loop 2":{
+"file":"micro-benchmarks/DRB146-gpu-atomicupdate-orig-no.c",
+"function":"main",
+"loop id":"1",
+"loop line":"23",
+"loop column":"3",
+"pragma type":"teams ditribute",
+"ordered":"false",
+"offload":"true",
+"multiversioned":"false",
+"shared":[],
+"private":[],
+"firstprivate":[],
+"lastprivate":[],
+"linear":[],
+"reduction":[],
+"map to":[],
+"map from":[],
+"map tofrom":["var"],
+"dependence list":["atomic update 1"],
+"body":["{",
+"    #pragma omp atomic update",
+"    var++;",
+"  }"]
+}
+}

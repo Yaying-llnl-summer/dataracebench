@@ -1,0 +1,41 @@
+{
+"ordered 1":{
+"pragma type":"ordered",
+"file":"micro-benchmarks/DRB110-ordered-orig-no.c",
+"function":"main",
+"loop id":"1",
+"statement id":"2",
+"snippet line":"56",
+"snippet column":"9",
+"code snippet":["{",
+"      x++;",
+"    }"]
+},
+"parallel loop 2":{
+"file":"micro-benchmarks/DRB110-ordered-orig-no.c",
+"function":"main",
+"loop id":"1",
+"loop line":"55",
+"loop column":"3",
+"pragma type":"parallel for",
+"ordered":"true",
+"offload":"false",
+"multiversioned":"false",
+"shared":[],
+"private":[],
+"firstprivate":[],
+"lastprivate":[],
+"linear":[],
+"reduction":[],
+"map to":[],
+"map from":[],
+"map tofrom":[],
+"dependence list":["ordered 1"],
+"body":["{",
+"#pragma omp ordered",
+"    {",
+"      x++;",
+"    }",
+"  }"]
+}
+}

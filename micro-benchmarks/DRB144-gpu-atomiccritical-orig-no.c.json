@@ -1,0 +1,40 @@
+{
+"atomic 1":{
+"pragma type":"atomic",
+"file":"micro-benchmarks/DRB144-gpu-atomiccritical-orig-no.c",
+"function":"main",
+"loop id":"1",
+"statement id":"1",
+"snippet line":"27",
+"snippet column":"15",
+"code snippet":["var++;"]
+},
+"parallel loop 2":{
+"file":"micro-benchmarks/DRB144-gpu-atomiccritical-orig-no.c",
+"function":"main",
+"loop id":"1",
+"loop line":"24",
+"loop column":"3",
+"pragma type":"teams ditribute parallel for",
+"ordered":"false",
+"offload":"true",
+"multiversioned":"false",
+"shared":[],
+"private":[],
+"firstprivate":[],
+"lastprivate":[],
+"linear":[],
+"reduction":[],
+"map to":[],
+"map from":[],
+"map tofrom":["var"],
+"dependence list":["atomic 1"],
+"body":["{",
+"    #pragma omp critical",
+"    if(var<N){",
+"      #pragma omp atomic",
+"      var++;",
+"    }",
+"  }"]
+}
+}

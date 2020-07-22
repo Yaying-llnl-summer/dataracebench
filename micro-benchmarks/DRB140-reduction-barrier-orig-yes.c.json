@@ -1,0 +1,26 @@
+{
+"parallel loop 1":{
+"file":"micro-benchmarks/DRB140-reduction-barrier-orig-yes.c",
+"function":"main",
+"loop id":"1",
+"loop line":"28",
+"loop column":"5",
+"pragma type":"parallel for",
+"ordered":"false",
+"offload":"false",
+"multiversioned":"false",
+"shared":["a"],
+"private":["i"],
+"firstprivate":[],
+"lastprivate":[],
+"linear":[],
+"reduction":["+:a"],
+"map to":[],
+"map from":[],
+"map tofrom":[],
+"dependence list":[],
+"body":["{",
+"      a = a + i;",
+"    }"]
+}
+}

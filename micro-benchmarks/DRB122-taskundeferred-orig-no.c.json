@@ -1,0 +1,29 @@
+{
+"parallel loop 1":{
+"file":"micro-benchmarks/DRB122-taskundeferred-orig-no.c",
+"function":"main",
+"loop id":"1",
+"loop line":"27",
+"loop column":"5",
+"pragma type":"NULL",
+"ordered":"false",
+"offload":"false",
+"multiversioned":"false",
+"shared":[],
+"private":[],
+"firstprivate":[],
+"lastprivate":[],
+"linear":[],
+"reduction":[],
+"map to":[],
+"map from":[],
+"map tofrom":[],
+"dependence list":[],
+"body":["{",
+"      #pragma omp task shared(var) if(0)",
+"      {",
+"        var++;",
+"      }",
+"    }"]
+}
+}

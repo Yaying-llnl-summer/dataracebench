@@ -1,0 +1,30 @@
+{
+"parallel loop 1":{
+"file":"micro-benchmarks/DRB147-gpu-critical1-orig-no.c",
+"function":"main",
+"loop id":"1",
+"loop line":"27",
+"loop column":"3",
+"pragma type":"teams ditribute parallel for",
+"ordered":"false",
+"offload":"true",
+"multiversioned":"false",
+"shared":[],
+"private":[],
+"firstprivate":[],
+"lastprivate":[],
+"linear":[],
+"reduction":[],
+"map to":[],
+"map from":[],
+"map tofrom":["var"],
+"dependence list":[],
+"body":["{",
+"    #pragma omp critical",
+"    var++;",
+"",
+"    #pragma omp critical",
+"    var = var - 2;",
+"  }"]
+}
+}

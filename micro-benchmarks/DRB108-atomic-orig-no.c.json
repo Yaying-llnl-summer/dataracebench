@@ -1,0 +1,12 @@
+{
+"atomic 1":{
+"pragma type":"atomic",
+"file":"",
+"function":"",
+"loop id":"0",
+"statement id":"0",
+"snippet line":"55",
+"snippet column":"9",
+"code snippet":["a+=1;"]
+}
+}
