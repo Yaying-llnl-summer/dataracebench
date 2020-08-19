@@ -1,0 +1,4 @@
+True: 1
+False:0
+SF:-1
+TO:-2

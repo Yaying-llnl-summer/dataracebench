@@ -30,3 +30,7 @@ intrench:29
 smidgen:30
 notinbranch:31
 uniform:32
+read:33
+write:34
+update:35
+capture:36

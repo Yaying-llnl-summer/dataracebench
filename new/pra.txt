@@ -1,0 +1,1532 @@
+RUNNING: micro-benchmarks/DRB001-antidep1-orig-yes.c.json
+loopid :2
+pragam :parallel for
+RUNNING: micro-benchmarks/DRB002-antidep1-var-yes.c.json
+loopid :2
+pragam :parallel for
+RUNNING: micro-benchmarks/DRB003-antidep2-orig-yes.c.json
+loopid :3
+pragam :parallel for
+clause :private
+RUNNING: micro-benchmarks/DRB004-antidep2-var-yes.c.json
+loopid :3
+pragam :parallel for
+clause :private
+RUNNING: micro-benchmarks/DRB005-indirectaccess1-orig-yes.c.json
+loopid :2
+pragam :parallel for
+clause :schedule
+RUNNING: micro-benchmarks/DRB006-indirectaccess2-orig-yes.c.json
+loopid :2
+pragam :parallel for
+RUNNING: micro-benchmarks/DRB007-indirectaccess3-orig-yes.c.json
+loopid :2
+pragam :parallel for
+RUNNING: micro-benchmarks/DRB008-indirectaccess4-orig-yes.c.json
+loopid :2
+pragam :parallel for
+RUNNING: micro-benchmarks/DRB009-lastprivatemissing-orig-yes.c.json
+loopid :1
+pragam :parallel for
+clause :private
+RUNNING: micro-benchmarks/DRB010-lastprivatemissing-var-yes.c.json
+loopid :1
+pragam :parallel for
+clause :private
+RUNNING: micro-benchmarks/DRB011-minusminus-orig-yes.c.json
+loopid :2
+pragam :parallel for
+RUNNING: micro-benchmarks/DRB012-minusminus-var-yes.c.json
+loopid :2
+pragam :parallel for
+RUNNING: micro-benchmarks/DRB013-nowait-orig-yes.c.json
+loopid :2
+pragam :parallel for
+clause :shared
+RUNNING: micro-benchmarks/DRB014-outofbounds-orig-yes.c.json
+loopid :1
+pragam :parallel for
+clause :private
+RUNNING: micro-benchmarks/DRB015-outofbounds-var-yes.c.json
+loopid :1
+pragam :parallel for
+clause :private
+RUNNING: micro-benchmarks/DRB016-outputdep-orig-yes.c.json
+loopid :1
+pragam :parallel for
+RUNNING: micro-benchmarks/DRB017-outputdep-var-yes.c.json
+loopid :1
+pragam :parallel for
+RUNNING: micro-benchmarks/DRB018-plusplus-orig-yes.c.json
+loopid :2
+pragam :parallel for
+RUNNING: micro-benchmarks/DRB019-plusplus-var-yes.c.json
+loopid :2
+pragam :parallel for
+RUNNING: micro-benchmarks/DRB020-privatemissing-var-yes.c.json
+loopid :2
+pragam :parallel for
+RUNNING: micro-benchmarks/DRB021-reductionmissing-orig-yes.c.json
+loopid :3
+pragam :parallel for
+clause :private
+RUNNING: micro-benchmarks/DRB022-reductionmissing-var-yes.c.json
+loopid :3
+pragam :parallel for
+clause :private
+RUNNING: micro-benchmarks/DRB024-simdtruedep-orig-yes.c.json
+loopid :2
+pragam :simd
+RUNNING: micro-benchmarks/DRB025-simdtruedep-var-yes.c.json
+loopid :2
+pragam :simd
+RUNNING: micro-benchmarks/DRB026-targetparallelfor-orig-yes.c.json
+loopid :2
+pragam :parallel for
+clause :map tofrom
+RUNNING: micro-benchmarks/DRB028-privatemissing-orig-yes.c.json
+loopid :2
+pragam :parallel for
+RUNNING: micro-benchmarks/DRB029-truedep1-orig-yes.c.json
+loopid :2
+pragam :parallel for
+RUNNING: micro-benchmarks/DRB030-truedep1-var-yes.c.json
+loopid :2
+pragam :parallel for
+RUNNING: micro-benchmarks/DRB031-truedepfirstdimension-orig-yes.c.json
+loopid :3
+pragam :parallel for
+clause :private
+RUNNING: micro-benchmarks/DRB032-truedepfirstdimension-var-yes.c.json
+loopid :3
+pragam :parallel for
+clause :private
+RUNNING: micro-benchmarks/DRB033-truedeplinear-orig-yes.c.json
+loopid :2
+pragam :parallel for
+RUNNING: micro-benchmarks/DRB034-truedeplinear-var-yes.c.json
+loopid :2
+pragam :parallel for
+RUNNING: micro-benchmarks/DRB035-truedepscalar-orig-yes.c.json
+loopid :1
+pragam :parallel for
+RUNNING: micro-benchmarks/DRB036-truedepscalar-var-yes.c.json
+loopid :1
+pragam :parallel for
+RUNNING: micro-benchmarks/DRB037-truedepseconddimension-orig-yes.c.json
+loopid :2
+pragam :parallel for
+RUNNING: micro-benchmarks/DRB038-truedepseconddimension-var-yes.c.json
+loopid :2
+pragam :parallel for
+RUNNING: micro-benchmarks/DRB039-truedepsingleelement-orig-yes.c.json
+loopid :1
+pragam :parallel for
+RUNNING: micro-benchmarks/DRB040-truedepsingleelement-var-yes.c.json
+loopid :1
+pragam :parallel for
+RUNNING: micro-benchmarks/DRB041-3mm-parallel-no.c.json 
+loopid :1
+pragam :parallel for
+clause :private
+loopid :17
+pragam :parallel for
+clause :private
+loopid :25
+pragam :parallel for
+clause :private
+loopid :30
+pragam :parallel for
+clause :private
+loopid :34
+pragam :parallel for
+clause :private
+loopid :40
+pragam :parallel for
+clause :private
+loopid :43
+pragam :parallel for
+clause :private
+loopid :46
+pragam :parallel for
+clause :private
+loopid :50
+pragam :parallel for
+clause :private
+loopid :52
+pragam :parallel for
+clause :private
+loopid :54
+pragam :parallel for
+clause :private
+loopid :60
+pragam :parallel for
+clause :private
+loopid :63
+pragam :parallel for
+clause :private
+loopid :67
+pragam :parallel for
+clause :private
+loopid :69
+pragam :parallel for
+clause :private
+loopid :73
+pragam :parallel for
+clause :private
+loopid :75
+pragam :parallel for
+clause :private
+loopid :77
+pragam :parallel for
+clause :private
+loopid :85
+pragam :parallel for
+clause :private
+loopid :89
+pragam :parallel for
+clause :private
+loopid :92
+pragam :parallel for
+clause :private
+loopid :94
+pragam :parallel for
+clause :private
+loopid :98
+pragam :parallel for
+clause :private
+loopid :100
+pragam :parallel for
+clause :private
+loopid :102
+pragam :parallel for
+clause :private
+loopid :106
+pragam :parallel for
+clause :private
+loopid :108
+pragam :parallel for
+clause :private
+loopid :110
+pragam :parallel for
+clause :private
+loopid :114
+pragam :parallel for
+clause :private
+loopid :116
+pragam :parallel for
+clause :private
+loopid :118
+pragam :parallel for
+clause :private
+loopid :120
+pragam :parallel for
+clause :private
+loopid :122
+pragam :parallel for
+clause :private
+loopid :126
+pragam :parallel for
+clause :private
+loopid :128
+pragam :parallel for
+clause :private
+loopid :131
+pragam :parallel for
+clause :private
+loopid :133
+pragam :parallel for
+clause :private
+RUNNING: micro-benchmarks/DRB042-3mm-tile-no.c.json
+loopid :1
+pragam :parallel for
+clause :private
+loopid :4
+pragam :simd
+loopid :5
+pragam :simd
+loopid :6
+pragam :simd
+loopid :7
+pragam :simd
+loopid :8
+pragam :simd
+loopid :9
+pragam :simd
+loopid :10
+pragam :simd
+loopid :11
+pragam :simd
+loopid :12
+pragam :simd
+loopid :13
+pragam :simd
+loopid :14
+pragam :simd
+loopid :15
+pragam :simd
+loopid :16
+pragam :simd
+loopid :17
+pragam :simd
+loopid :18
+pragam :simd
+loopid :20
+pragam :simd
+loopid :21
+pragam :simd
+loopid :22
+pragam :simd
+loopid :23
+pragam :simd
+loopid :25
+pragam :simd
+loopid :26
+pragam :simd
+loopid :27
+pragam :simd
+loopid :28
+pragam :simd
+loopid :29
+pragam :simd
+loopid :31
+pragam :simd
+loopid :32
+pragam :simd
+loopid :34
+pragam :simd
+loopid :35
+pragam :simd
+loopid :36
+pragam :simd
+loopid :37
+pragam :simd
+loopid :38
+pragam :simd
+loopid :40
+pragam :simd
+loopid :41
+pragam :simd
+loopid :42
+pragam :simd
+loopid :44
+pragam :simd
+loopid :45
+pragam :simd
+loopid :46
+pragam :simd
+loopid :48
+pragam :simd
+loopid :50
+pragam :simd
+loopid :51
+pragam :simd
+loopid :52
+pragam :simd
+loopid :53
+pragam :simd
+loopid :54
+pragam :simd
+loopid :55
+pragam :simd
+loopid :56
+pragam :simd
+loopid :58
+pragam :simd
+loopid :59
+pragam :simd
+loopid :61
+pragam :simd
+loopid :62
+pragam :simd
+loopid :63
+pragam :simd
+loopid :65
+pragam :simd
+loopid :67
+pragam :simd
+loopid :68
+pragam :simd
+loopid :69
+pragam :simd
+loopid :71
+pragam :simd
+loopid :73
+pragam :simd
+loopid :76
+pragam :simd
+loopid :77
+pragam :simd
+loopid :79
+pragam :simd
+loopid :81
+pragam :simd
+loopid :82
+pragam :simd
+loopid :84
+pragam :simd
+loopid :86
+pragam :simd
+loopid :87
+pragam :simd
+loopid :89
+pragam :simd
+loopid :91
+pragam :simd
+loopid :94
+pragam :simd
+loopid :95
+pragam :simd
+loopid :96
+pragam :simd
+loopid :97
+pragam :simd
+loopid :98
+pragam :simd
+loopid :99
+pragam :simd
+loopid :100
+pragam :simd
+loopid :102
+pragam :simd
+loopid :103
+pragam :simd
+loopid :105
+pragam :simd
+loopid :106
+pragam :simd
+loopid :107
+pragam :simd
+loopid :109
+pragam :simd
+loopid :111
+pragam :simd
+loopid :112
+pragam :simd
+loopid :113
+pragam :simd
+loopid :115
+pragam :simd
+loopid :117
+pragam :simd
+loopid :120
+pragam :simd
+loopid :121
+pragam :simd
+loopid :122
+pragam :simd
+loopid :123
+pragam :simd
+loopid :125
+pragam :simd
+loopid :126
+pragam :simd
+loopid :128
+pragam :simd
+loopid :129
+pragam :simd
+loopid :131
+pragam :simd
+loopid :133
+pragam :simd
+loopid :134
+pragam :simd
+loopid :135
+pragam :simd
+loopid :137
+pragam :simd
+loopid :139
+pragam :simd
+loopid :142
+pragam :simd
+loopid :143
+pragam :simd
+loopid :145
+pragam :simd
+loopid :147
+pragam :simd
+loopid :150
+pragam :simd
+loopid :151
+pragam :simd
+loopid :153
+pragam :simd
+loopid :155
+pragam :simd
+loopid :158
+pragam :simd
+loopid :159
+pragam :simd
+loopid :160
+pragam :simd
+loopid :161
+pragam :simd
+loopid :162
+pragam :simd
+loopid :163
+pragam :simd
+loopid :164
+pragam :simd
+loopid :166
+pragam :simd
+loopid :167
+pragam :simd
+loopid :168
+pragam :simd
+loopid :170
+pragam :simd
+loopid :171
+pragam :simd
+loopid :172
+pragam :simd
+loopid :174
+pragam :simd
+loopid :177
+pragam :simd
+loopid :178
+pragam :simd
+loopid :179
+pragam :simd
+loopid :181
+pragam :simd
+loopid :183
+pragam :simd
+loopid :186
+pragam :simd
+loopid :187
+pragam :simd
+loopid :188
+pragam :simd
+loopid :190
+pragam :simd
+loopid :192
+pragam :simd
+loopid :195
+pragam :simd
+loopid :196
+pragam :simd
+loopid :197
+pragam :simd
+loopid :198
+pragam :simd
+loopid :200
+pragam :simd
+loopid :201
+pragam :simd
+loopid :203
+pragam :simd
+loopid :204
+pragam :simd
+loopid :205
+pragam :simd
+loopid :207
+pragam :simd
+loopid :209
+pragam :simd
+loopid :210
+pragam :simd
+loopid :212
+pragam :simd
+loopid :214
+pragam :simd
+loopid :217
+pragam :simd
+loopid :218
+pragam :simd
+loopid :219
+pragam :simd
+loopid :221
+pragam :simd
+loopid :223
+pragam :simd
+loopid :226
+pragam :simd
+loopid :227
+pragam :simd
+loopid :228
+pragam :simd
+loopid :230
+pragam :simd
+loopid :232
+pragam :simd
+loopid :235
+pragam :simd
+loopid :236
+pragam :simd
+loopid :237
+pragam :simd
+loopid :239
+pragam :simd
+loopid :241
+pragam :simd
+loopid :244
+pragam :simd
+loopid :247
+pragam :simd
+loopid :250
+pragam :simd
+loopid :253
+pragam :simd
+loopid :254
+pragam :simd
+loopid :255
+pragam :simd
+loopid :256
+pragam :simd
+loopid :257
+pragam :simd
+loopid :258
+pragam :simd
+loopid :259
+pragam :simd
+loopid :261
+pragam :simd
+loopid :262
+pragam :simd
+loopid :263
+pragam :simd
+loopid :265
+pragam :simd
+loopid :266
+pragam :simd
+loopid :267
+pragam :simd
+loopid :269
+pragam :simd
+loopid :272
+pragam :simd
+loopid :273
+pragam :simd
+loopid :274
+pragam :simd
+loopid :276
+pragam :simd
+loopid :278
+pragam :simd
+loopid :281
+pragam :simd
+loopid :282
+pragam :simd
+loopid :283
+pragam :simd
+loopid :285
+pragam :simd
+loopid :287
+pragam :simd
+loopid :290
+pragam :simd
+loopid :293
+pragam :simd
+loopid :296
+pragam :simd
+loopid :297
+pragam :simd
+loopid :298
+pragam :simd
+loopid :300
+pragam :simd
+loopid :302
+pragam :simd
+loopid :305
+pragam :simd
+loopid :308
+pragam :simd
+loopid :311
+pragam :simd
+loopid :312
+pragam :simd
+loopid :313
+pragam :simd
+loopid :314
+pragam :simd
+loopid :315
+pragam :simd
+loopid :316
+pragam :simd
+loopid :317
+pragam :simd
+loopid :319
+pragam :simd
+loopid :320
+pragam :simd
+loopid :322
+pragam :simd
+loopid :323
+pragam :simd
+loopid :324
+pragam :simd
+loopid :326
+pragam :simd
+loopid :328
+pragam :simd
+loopid :329
+pragam :simd
+loopid :330
+pragam :simd
+loopid :332
+pragam :simd
+loopid :334
+pragam :simd
+loopid :337
+pragam :simd
+loopid :338
+pragam :simd
+loopid :340
+pragam :simd
+loopid :342
+pragam :simd
+loopid :345
+pragam :simd
+loopid :346
+pragam :simd
+loopid :347
+pragam :simd
+loopid :349
+pragam :simd
+loopid :351
+pragam :simd
+loopid :354
+pragam :simd
+loopid :355
+pragam :simd
+loopid :356
+pragam :simd
+loopid :358
+pragam :simd
+loopid :360
+pragam :simd
+loopid :363
+pragam :simd
+loopid :366
+pragam :simd
+loopid :369
+pragam :simd
+loopid :370
+pragam :simd
+loopid :371
+pragam :simd
+loopid :373
+pragam :simd
+loopid :376
+pragam :simd
+loopid :379
+pragam :simd
+loopid :382
+pragam :simd
+loopid :383
+pragam :simd
+loopid :384
+pragam :simd
+loopid :385
+pragam :simd
+loopid :386
+pragam :simd
+loopid :387
+pragam :simd
+loopid :388
+pragam :simd
+loopid :390
+pragam :simd
+loopid :391
+pragam :simd
+loopid :392
+pragam :simd
+loopid :395
+pragam :simd
+loopid :396
+pragam :simd
+loopid :397
+pragam :simd
+loopid :399
+pragam :simd
+loopid :402
+pragam :simd
+loopid :403
+pragam :simd
+loopid :404
+pragam :simd
+loopid :406
+pragam :simd
+loopid :408
+pragam :simd
+loopid :411
+pragam :simd
+loopid :414
+pragam :simd
+loopid :417
+pragam :simd
+loopid :418
+pragam :simd
+loopid :420
+pragam :simd
+loopid :422
+pragam :simd
+loopid :425
+pragam :simd
+loopid :428
+pragam :simd
+loopid :431
+pragam :simd
+loopid :432
+pragam :simd
+loopid :433
+pragam :simd
+loopid :435
+pragam :simd
+loopid :438
+pragam :simd
+loopid :441
+pragam :simd
+loopid :442
+pragam :simd
+loopid :443
+pragam :simd
+loopid :445
+pragam :simd
+loopid :447
+pragam :simd
+loopid :450
+pragam :simd
+loopid :453
+pragam :simd
+loopid :456
+pragam :simd
+loopid :457
+pragam :simd
+loopid :458
+pragam :simd
+loopid :460
+pragam :simd
+loopid :463
+pragam :simd
+loopid :466
+pragam :simd
+loopid :469
+pragam :simd
+loopid :472
+pragam :simd
+loopid :475
+pragam :simd
+loopid :478
+pragam :simd
+loopid :481
+pragam :simd
+loopid :482
+pragam :parallel for
+clause :private
+loopid :485
+pragam :simd
+loopid :486
+pragam :simd
+loopid :487
+pragam :simd
+loopid :489
+pragam :simd
+loopid :491
+pragam :simd
+loopid :494
+pragam :simd
+loopid :497
+pragam :simd
+loopid :500
+pragam :simd
+loopid :503
+pragam :simd
+loopid :504
+pragam :parallel for
+clause :private
+loopid :507
+pragam :simd
+loopid :508
+pragam :simd
+loopid :509
+pragam :simd
+loopid :511
+pragam :simd
+loopid :513
+pragam :simd
+loopid :516
+pragam :simd
+loopid :519
+pragam :simd
+loopid :522
+pragam :simd
+loopid :525
+pragam :simd
+loopid :526
+pragam :parallel for
+clause :private
+loopid :529
+pragam :simd
+loopid :530
+pragam :parallel for
+clause :private
+loopid :533
+pragam :simd
+loopid :534
+pragam :simd
+loopid :535
+pragam :simd
+loopid :537
+pragam :simd
+loopid :539
+pragam :simd
+loopid :542
+pragam :simd
+loopid :545
+pragam :simd
+loopid :548
+pragam :simd
+loopid :551
+pragam :simd
+loopid :552
+pragam :parallel for
+clause :private
+loopid :555
+pragam :simd
+loopid :556
+pragam :parallel for
+clause :private
+loopid :559
+pragam :simd
+loopid :560
+pragam :simd
+loopid :561
+pragam :simd
+loopid :562
+pragam :simd
+loopid :563
+pragam :simd
+loopid :564
+pragam :simd
+loopid :565
+pragam :simd
+loopid :567
+pragam :simd
+loopid :568
+pragam :simd
+loopid :570
+pragam :simd
+loopid :571
+pragam :simd
+loopid :572
+pragam :simd
+loopid :574
+pragam :simd
+loopid :576
+pragam :simd
+loopid :577
+pragam :simd
+loopid :578
+pragam :simd
+loopid :580
+pragam :simd
+loopid :582
+pragam :simd
+loopid :585
+pragam :simd
+loopid :586
+pragam :simd
+loopid :588
+pragam :simd
+loopid :590
+pragam :simd
+loopid :593
+pragam :simd
+loopid :594
+pragam :simd
+loopid :595
+pragam :simd
+loopid :597
+pragam :simd
+loopid :599
+pragam :simd
+loopid :602
+pragam :simd
+loopid :603
+pragam :simd
+loopid :604
+pragam :simd
+loopid :606
+pragam :simd
+loopid :608
+pragam :simd
+loopid :611
+pragam :simd
+loopid :614
+pragam :simd
+loopid :617
+pragam :simd
+loopid :618
+pragam :simd
+loopid :619
+pragam :simd
+loopid :621
+pragam :simd
+loopid :623
+pragam :simd
+loopid :626
+pragam :simd
+loopid :629
+pragam :simd
+loopid :632
+pragam :simd
+loopid :633
+pragam :simd
+loopid :634
+pragam :simd
+loopid :636
+pragam :simd
+loopid :638
+pragam :simd
+loopid :641
+pragam :simd
+loopid :644
+pragam :simd
+loopid :647
+pragam :simd
+loopid :648
+pragam :simd
+loopid :649
+pragam :simd
+loopid :651
+pragam :simd
+loopid :654
+pragam :simd
+loopid :657
+pragam :simd
+loopid :660
+pragam :simd
+loopid :663
+pragam :simd
+loopid :666
+pragam :simd
+loopid :667
+pragam :parallel for
+clause :private
+loopid :670
+pragam :simd
+loopid :671
+pragam :parallel for
+clause :private
+loopid :674
+pragam :simd
+loopid :675
+pragam :parallel for
+clause :private
+loopid :678
+pragam :simd
+loopid :679
+pragam :simd
+loopid :680
+pragam :simd
+loopid :682
+pragam :simd
+loopid :684
+pragam :simd
+loopid :687
+pragam :simd
+loopid :690
+pragam :simd
+loopid :693
+pragam :simd
+loopid :696
+pragam :simd
+loopid :697
+pragam :parallel for
+clause :private
+loopid :700
+pragam :simd
+loopid :1
+pragam :parallel for
+clause :private
+loopid :4
+pragam :simd
+loopid :6
+pragam :simd
+loopid :7
+pragam :parallel for
+clause :private
+loopid :10
+pragam :simd
+loopid :11
+pragam :parallel for
+clause :private
+loopid :14
+pragam :simd
+loopid :15
+pragam :parallel for
+clause :private
+loopid :20
+pragam :simd
+loopid :21
+pragam :parallel for
+clause :private
+loopid :24
+pragam :simd
+loopid :25
+pragam :parallel for
+clause :private
+loopid :30
+pragam :simd
+loopid :34
+pragam :simd
+RUNNING: micro-benchmarks/DRB043-adi-parallel-no.c.json 
+loopid :1
+pragam :parallel for
+clause :private
+loopid :2
+pragam :parallel for
+clause :private
+loopid :6
+pragam :parallel for
+loopid :7
+pragam :parallel for
+clause :private
+loopid :11
+pragam :parallel for
+RUNNING: micro-benchmarks/DRB044-adi-tile-no.c.json
+loopid :1
+pragam :parallel for
+clause :private
+loopid :4
+pragam :simd
+loopid :2
+pragam :parallel for
+clause :private
+loopid :5
+pragam :simd
+loopid :8
+pragam :simd
+loopid :11
+pragam :simd
+loopid :12
+pragam :parallel for
+clause :private
+loopid :13
+pragam :simd
+loopid :14
+pragam :parallel for
+clause :private
+loopid :17
+pragam :simd
+loopid :20
+pragam :simd
+loopid :23
+pragam :simd
+loopid :24
+pragam :parallel for
+clause :private
+loopid :25
+pragam :simd
+RUNNING: micro-benchmarks/DRB045-doall1-orig-no.c.json
+loopid :1
+pragam :parallel for
+RUNNING: micro-benchmarks/DRB046-doall2-orig-no.c.json
+loopid :1
+pragam :parallel for
+clause :private
+RUNNING: micro-benchmarks/DRB047-doallchar-orig-no.c.json
+loopid :1
+pragam :parallel for
+RUNNING: micro-benchmarks/DRB048-firstprivate-orig-no.c.json
+loopid :1
+pragam :parallel for
+clause :firstprivate
+RUNNING: micro-benchmarks/DRB049-fprintf-orig-no.c.json
+loopid :2
+pragam :parallel for
+RUNNING: micro-benchmarks/DRB050-functionparameter-orig-no.c.json
+loopid :1
+pragam :parallel for
+RUNNING: micro-benchmarks/DRB052-indirectaccesssharebase-orig-no.c.json
+loopid :2
+pragam :parallel for
+RUNNING: micro-benchmarks/DRB053-inneronly1-orig-no.c.json
+loopid :2
+pragam :parallel for
+RUNNING: micro-benchmarks/DRB054-inneronly2-orig-no.c.json
+loopid :4
+pragam :parallel for
+RUNNING: micro-benchmarks/DRB055-jacobi2d-parallel-no.c.json
+loopid :1
+pragam :parallel for
+clause :private
+loopid :4
+pragam :parallel for
+clause :private
+RUNNING: micro-benchmarks/DRB056-jacobi2d-tile-no.c.json
+loopid :1
+pragam :parallel for
+clause :private
+loopid :4
+pragam :simd
+loopid :2
+pragam :parallel for
+clause :private
+RUNNING: micro-benchmarks/DRB057-jacobiinitialize-orig-no.c.json
+loopid :1
+pragam :parallel for
+clause :private
+RUNNING: micro-benchmarks/DRB058-jacobikernel-orig-no.c.json
+loopid :2
+pragam :parallel for
+clause :private
+loopid :4
+pragam :parallel for
+clause :private
+clause :reduction
+clause :nowait
+RUNNING: micro-benchmarks/DRB059-lastprivate-orig-no.c.json
+loopid :1
+pragam :parallel for
+clause :private
+clause :lastprivate
+RUNNING: micro-benchmarks/DRB060-matrixmultiply-orig-no.c.json
+loopid :1
+pragam :parallel for
+clause :private
+RUNNING: micro-benchmarks/DRB061-matrixvector1-orig-no.c.json
+loopid :1
+pragam :parallel for
+clause :private
+RUNNING: micro-benchmarks/DRB062-matrixvector2-orig-no.c.json
+loopid :2
+pragam :parallel for
+clause :reduction
+RUNNING: micro-benchmarks/DRB063-outeronly1-orig-no.c.json
+loopid :1
+pragam :parallel for
+clause :private
+RUNNING: micro-benchmarks/DRB064-outeronly2-orig-no.c.json
+loopid :1
+pragam :parallel for
+clause :private
+RUNNING: micro-benchmarks/DRB065-pireduction-orig-no.c.json
+loopid :1
+pragam :parallel for
+clause :private
+clause :reduction
+RUNNING: micro-benchmarks/DRB066-pointernoaliasing-orig-no.c.json
+loopid :1
+pragam :parallel for
+clause :schedule
+RUNNING: micro-benchmarks/DRB067-restrictpointer1-orig-no.c.json
+loopid :1
+pragam :parallel for
+clause :private
+clause :firstprivate
+RUNNING: micro-benchmarks/DRB068-restrictpointer2-orig-no.c.json
+loopid :1
+pragam :parallel for
+RUNNING: micro-benchmarks/DRB070-simd1-orig-no.c.json
+loopid :1
+pragam :simd
+RUNNING: micro-benchmarks/DRB071-targetparallelfor-orig-no.c.json
+loopid :2
+pragam :parallel for
+clause :map tofrom
+RUNNING: micro-benchmarks/DRB073-doall2-orig-yes.c.json
+loopid :1
+pragam :parallel for
+RUNNING: micro-benchmarks/DRB084-threadprivatemissing-orig-yes.c.json
+loopid :1
+pragam :parallel for
+RUNNING: micro-benchmarks/DRB085-threadprivate-orig-no.c.json
+loopid :1
+pragam :parallel for
+clause :copyin
+RUNNING: micro-benchmarks/DRB090-static-local-orig-yes.c.json
+loopid :2
+pragam :parallel for
+loopid :3
+pragam :parallel for
+RUNNING: micro-benchmarks/DRB091-threadprivate2-orig-no.c.json
+loopid :1
+pragam :parallel for
+clause :copyin
+RUNNING: micro-benchmarks/DRB092-threadprivatemissing2-orig-yes.c.json
+loopid :1
+pragam :parallel for
+RUNNING: micro-benchmarks/DRB093-doall2-collapse-orig-no.c.json
+loopid :1
+pragam :parallel for
+clause :collapse
+loopid :2
+pragam :parallel for
+clause :collapse
+RUNNING: micro-benchmarks/DRB095-doall2-taskloop-orig-yes.c.json
+loopid :1
+pragam :taskloop
+RUNNING: micro-benchmarks/DRB096-doall2-taskloop-collapse-orig-no.c.json
+loopid :1
+pragam :taskloop
+clause :collapse
+loopid :2
+pragam :taskloop
+clause :collapse
+RUNNING: micro-benchmarks/DRB097-target-teams-distribute-orig-no.c.json
+loopid :3
+pragam :parallel for
+clause :reduction
+clause :map to
+clause :map tofrom
+loopid :2
+pragam :distribute
+clause :reduction
+clause :map to
+clause :map tofrom
+loopid :4
+pragam :parallel for
+clause :reduction
+RUNNING: micro-benchmarks/DRB098-simd2-orig-no.c.json
+loopid :3
+pragam :simd
+clause :collapse
+loopid :4
+pragam :simd
+clause :collapse
+RUNNING: micro-benchmarks/DRB099-targetparallelfor2-orig-no.c.json
+loopid :1
+pragam :parallel for
+clause :map to
+clause :map from
+RUNNING: micro-benchmarks/DRB100-task-reference-orig-no.cpp.json
+RUNNING: micro-benchmarks/DRB101-task-value-orig-no.cpp.json
+RUNNING: micro-benchmarks/DRB104-nowait-barrier-orig-no.c.json
+loopid :2
+pragam :parallel for
+clause :shared
+clause :nowait
+RUNNING: micro-benchmarks/DRB109-orderedmissing-orig-yes.c.json
+loopid :1
+pragam :parallel for
+clause :order
+RUNNING: micro-benchmarks/DRB110-ordered-orig-no.c.json
+loopid :1
+pragam :ordered
+pragam :parallel for
+clause :ordered
+RUNNING: micro-benchmarks/DRB111-linearmissing-orig-yes.c.json
+loopid :2
+pragam :parallel for
+RUNNING: micro-benchmarks/DRB112-linear-orig-no.c.json
+loopid :2
+pragam :parallel for
+clause :linear
+RUNNING: micro-benchmarks/DRB113-default-orig-no.c.json
+loopid :1
+pragam :parallel for
+clause :shared
+clause :private
+clause :default
+loopid :3
+pragam :parallel for
+clause :private
+clause :default
+RUNNING: micro-benchmarks/DRB114-if-orig-yes.c.json
+loopid :2
+pragam :parallel for
+clause :if
+RUNNING: micro-benchmarks/DRB115-forsimd-orig-yes.c.json
+loopid :2
+pragam :parallel for simd
+RUNNING: micro-benchmarks/DRB116-target-teams-orig-yes.c.json
+RUNNING: micro-benchmarks/DRB117-taskwait-waitonlychild-orig-yes.c.json
+loopid :1
+pragam :parallel for
+clause :num_threads
+clause :schedule
+RUNNING: micro-benchmarks/DRB121-reduction-orig-no.c.json
+loopid :1
+pragam :parallel for
+clause :reduction
+clause :schedule
+loopid :2
+pragam :parallel for
+clause :reduction
+clause :schedule
+RUNNING: micro-benchmarks/DRB122-taskundeferred-orig-no.c.json
+RUNNING: micro-benchmarks/DRB123-taskundeferred-orig-yes.c.json
+RUNNING: micro-benchmarks/DRB137-simdsafelen-orig-no.c.json
+loopid :1
+pragam :simd
+clause :safelen
+RUNNING: micro-benchmarks/DRB138-simdsafelen-orig-yes.c.json
+loopid :1
+pragam :simd
+clause :safelen
+RUNNING: micro-benchmarks/DRB140-reduction-barrier-orig-yes.c.json
+loopid :1
+pragam :parallel for
+clause :shared
+clause :private
+clause :reduction
+RUNNING: micro-benchmarks/DRB141-reduction-barrier-orig-no.c.json
+loopid :1
+pragam :parallel for
+clause :shared
+clause :private
+clause :reduction
+RUNNING: micro-benchmarks/DRB142-acquirerelease-orig-yes.c.json
+loopid :0
+pragam :atomic
+clause :write
+loopid :1
+pragam :atomic
+clause :read
+RUNNING: micro-benchmarks/DRB143-acquirerelease-orig-no.c.json
+loopid :0
+pragam :atomic
+clause :write
+loopid :1
+pragam :atomic
+clause :read
+RUNNING: micro-benchmarks/DRB144-gpu-atomiccritical-orig-no.c.json
+loopid :1
+pragam :atomic
+pragam :teams ditribute parallel for
+pragam :target
+clause :map
+clause :device
+RUNNING: micro-benchmarks/DRB145-gpu-atomiccritical-orig-yes.c.json
+loopid :1
+pragam :atomic
+pragam :teams ditribute parallel for
+pragam :target
+clause :map
+clause :device
+RUNNING: micro-benchmarks/DRB146-gpu-atomicupdate-orig-no.c.json
+loopid :1
+pragam :atomic
+clause :update
+pragam :teams ditribute
+pragam :target
+clause :map
+clause :device
+RUNNING: micro-benchmarks/DRB147-gpu-critical1-orig-no.c.json
+loopid :1
+pragam :teams ditribute parallel for
+pragam :target
+clause :map
+clause :device
+RUNNING: micro-benchmarks/DRB148-gpu-critical1-orig-yes.c.json
+loopid :1
+pragam :teams ditribute parallel for
+pragam :target
+clause :map
+clause :device
+RUNNING: micro-benchmarks/DRB149-gpu-missingdata1-orig-no.c.json
+loopid :3
+pragam :teams ditribute parallel for
+pragam :target
+clause :map
+clause :device
+RUNNING: micro-benchmarks/DRB150-gpu-missinglock1-orig-no.c.json
+loopid :1
+pragam :teams ditribute parallel for
+pragam :target
+clause :map
+clause :device
+RUNNING: micro-benchmarks/DRB151-gpu-missinglock1-orig-yes.c.json
+loopid :1
+pragam :teams ditribute parallel for
+pragam :target
+clause :map
+clause :device
+RUNNING: micro-benchmarks/DRB152-gpu-missinglock2-orig-no.c.json
+loopid :1
+pragam :distribute parallel for
+pragam :target
+clause :map
+clause :device
+RUNNING: micro-benchmarks/DRB153-gpu-missinglock2-orig-yes.c.json
+loopid :1
+pragam :distribute parallel for
+pragam :target
+clause :map
+clause :device
+RUNNING: micro-benchmarks/DRB154-gpu-missinglock3-orig-no.c.json
+loopid :1
+pragam :teams ditribute
+pragam :target
+clause :map
+clause :device
+RUNNING: micro-benchmarks/DRB155-gpu-missingordered-orig-no.c.json
+loopid :2
+pragam :ordered
+pragam :parallel for
+pragam :target
+clause :map
+clause :device
+clause :ordered
+RUNNING: micro-benchmarks/DRB156-gpu-missingordered-orig-yes.c.json
+loopid :2
+pragam :teams ditribute parallel for
+pragam :target
+clause :map
+clause :device
+RUNNING: micro-benchmarks/DRB157-gpu-missingorderedsimd-orig-yes.c.json
+loopid :2
+pragam :teams ditribute parallel for simd
+clause :safelen
+pragam :target
+clause :map
+clause :device
+RUNNING: micro-benchmarks/DRB158-gpu-missingtaskbarrier-orig-no.c.json
+RUNNING: micro-benchmarks/DRB159-gpu-nobarrier-orig-no.c.json
+loopid :3
+pragam :parallel for
+clause :safelen
+pragam :target
+clause :map
+clause :device
+loopid :4
+pragam :parallel for
+pragam :target
+clause :map
+clause :device
+RUNNING: micro-benchmarks/DRB160-gpu-nobarrier-orig-yes.c.json
+loopid :3
+pragam :distribute
+pragam :target
+clause :map
+clause :device
+loopid :4
+pragam :distribute
+pragam :target
+clause :map
+clause :device
+RUNNING: micro-benchmarks/DRB161-gpu-reduction-orig-no.c.json
+loopid :1
+pragam :teams ditribute parallel for
+clause :reduction
+pragam :target
+clause :map
+clause :device
+RUNNING: micro-benchmarks/DRB162-gpu-reduction-orig-yes.c.json
+loopid :1
+pragam :teams ditribute parallel for
+pragam :target
+clause :map
+clause :device
+RUNNING: micro-benchmarks/DRB163-gpu-simdmissinglock1-orig-no.c.json
+loopid :3
+pragam :simd
+pragam :target
+clause :map
+loopid :2
+pragam :teams ditribute parallel for
+pragam :target
+clause :map
+clause :device
+RUNNING: micro-benchmarks/DRB164-gpu-simdmissinglock1-orig-yes.c.json
+loopid :3
+pragam :simd
+pragam :target
+clause :map
+loopid :2
+pragam :teams ditribute parallel for
+pragam :target
+clause :map
+END :test

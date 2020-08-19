@@ -1,4 +1,4 @@
-{
+ {
 "parallel loop 1":{
 "file":"micro-benchmarks/DRB093-doall2-collapse-orig-no.c",
 "function":"main",

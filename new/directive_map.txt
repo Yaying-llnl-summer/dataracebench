@@ -1,0 +1,87 @@
+parallel:0 (00000)5
+metadirective:1 (00001)1
+declare variant:2
+for:3
+do:4
+simd:5 
+teams:6
+for simd:7
+do simd:8
+parallel for simd:9
+parallel do simd:10
+declare simd:11
+declare simd fortran:12
+distribute:13
+distribute simd:14
+distribute parallel for:15
+distribute parallel do:16
+distribute parallel for simd:17
+distribute parallel do simd:18
+parallel for:19
+parallel do:20
+parallel loop:21
+parallel sections:22 
+parallel workshare:23
+parallel master:24
+master taskloop:25
+master taskloop simd:26
+parallel master taskloop:27
+parallel master taskloop simd:28
+loop:29
+scan:30
+sections:31
+section:32
+single:33
+workshare:34
+cancel:35
+cancel fortran:36
+cancellation point:37
+cancellation point fortran:38
+allocate:39
+task:40
+taskloop:41
+taskloop simd:42
+taskyield:43
+requires:44
+target data:45
+target enter data:46
+target exit data:47
+target:48
+target update:49
+declare target:50
+end declare target:51
+master:52
+threadprivate:53
+declare reduction:54
+declare mapper:55
+end:56
+barrier:57
+taskwait:58
+taskgroup:59
+flush:60
+atomic:61
+critical:62
+depobj:63
+ordered:64
+teams distribute:65
+teams distribute simd:66
+teams distribute parallel for:67
+teams distribute parallel for simd:68
+teams loop:69
+target parallel:70
+target parallel for:71
+target parallel for simd:72
+target parallel loop:73
+target simd:74
+target teams:75
+target teams distribute:76
+target teams distribute simd:77
+target teams loop:78
+target teams distribute parallel for:79
+target teams distribute parallel for simd:80
+teams distribute parallel do:81
+teams distribute parallel do simd:82
+target parallel do:83
+target parallel do simd:84
+target teams distribute parallel do:85
+target teams distribute parallel do simd:86

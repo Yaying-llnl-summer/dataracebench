@@ -1,4 +1,4 @@
-{
+  {
 "atomic 1":{
 "pragma type":"atomic",
 "file":"micro-benchmarks/DRB145-gpu-atomiccritical-orig-yes.c",
